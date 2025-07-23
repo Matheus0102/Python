@@ -63,7 +63,7 @@ else:
 '''
 
 # e - and
-
+'''
 altura = float(input('Digite a sua altura(m): '))
 peso = float(input('Digite o seu peso(kg): '))
 
@@ -71,9 +71,35 @@ if altura > 1.2 and altura < 2 and peso < 120:
     print('Pode andar no brinquedo')
 else:
     print('Quem sabe ano que vem! ')
+'''
 
+'''
 import random
 
 pc = random.randint(1,10)
 print(pc)
+'''
 
+'''
+#for
+
+#1
+for i in range(1,11):
+    print('OI')
+    
+#2
+for i in range(1,101):
+    print(i)
+    
+#3
+for i in range(100, 0, -1):
+    print(i)
+    
+#4 soma
+soma = 0
+
+for i in range(0, 11)
+    soma = soma + i
+    
+print(soma)
+'''

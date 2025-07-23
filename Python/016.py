@@ -4,9 +4,17 @@ Crie um programa para jogar JOKEMPO, usando a função random.randint
 
 import random
 
-usuario = int(input('escolha 1 para papel, 2 para tesoura ou 3 para pedra: '))
-
 pc = random.randint(1,3)
 
-if usuario > pc or usuario > pc:
-    print('Voce venceu!')
+jogador = int(input('1. Pedra'
+                    '\n2. Papel'
+                    '\n3. Tesoura'
+                    '\n--->  '))
+
+if pc == jogador:
+    print(f'Empate! - jogador - {jogador} x {pc} - PC')
+
+elif (jogador == 1 and pc ==3) or (jogador == 2 and pc == 1) or (jogador == 3 and pc == 2):
+    print(f'Vitoria! - jogador - {jogador} x {pc} - PC')
+else:
+    print(f'Perdeu! - jogador - {jogador} x {pc} - PC')
