@@ -103,3 +103,20 @@ for i in range(0, 11)
     
 print(soma)
 '''
+
+'''
+#while
+#1
+i = 0 
+
+while i < 10:
+    i += 1
+    print(i)
+
+#2
+resposta = 'S'
+
+while resposta != 'N':
+    print('OI')
+    resposta = str(input('Deseja continuar? (S/N): ')).strip().upper()
+'''
